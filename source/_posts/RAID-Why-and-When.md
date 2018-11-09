@@ -5,7 +5,7 @@ tags:
 ---
 
 RAID stands for Redundant Array of Independent Disks (some are taught "Inexpensive" to indicate that they are "normal" disks; historically there were internally redundant disks which were very expensive; since those are no longer available the acronym has adapted).
-
+<!-- more --> 
 At the most general level, a RAID is a group of disks that act on the same reads and writes. SCSI IO is performed on a volume ("LUN"), and these are distributed to the underlying disks in a way that introduces a performance increase and/or a redundancy increase. The performance increase is a function of striping: data is spread across multiple disks to allow reads and writes to use all the disks' IO queues simultaneously. Redundancy is a function of mirroring. Entire disks can be kept as copies, or individual stripes can be written multiple times. Alternatively, in some types of raid, instead of copying data bit for bit, redundancy is gained by creating special stripes that contain parity information, which can be used to recreate any lost data in the event of a hardware failure.
 
 There are several configurations that provide different levels of these benefits, which are covered here, and each one has a bias toward performance, or redundancy.

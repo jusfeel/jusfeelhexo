@@ -14,7 +14,7 @@ Introduction
 ------------
 
 This document explains how to set your computer's clock from Linux, how to set your timezone, and other stuff related to Linux and how it does its time-keeping.
-
+<!-- more --> 
 Your computer has two timepieces; a battery-backed one that is always running (the \`\`hardware'', \`\`BIOS'', or \`\`CMOS'' clock), and another that is maintained by the operating system currently running on your computer (the \`\`system'' clock). The hardware clock is generally only used to set the system clock when your operating system boots, and then from that point until you reboot or turn off your system, the system clock is the one used to keep track of time.
 
 On Linux systems, you have a choice of keeping the hardware clock in UTC/GMT time or local time. The preferred option is to keep it in UTC because then daylight savings can be automatically accounted for. The only disadvantage with keeping the hardware clock in UTC is that if you dual boot with an operating system (such as DOS) that expects the hardware clock to be set to local time, the time will always be wrong in that operating system.

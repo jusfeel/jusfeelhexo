@@ -6,7 +6,7 @@ tags:
 > Saving time is saving lives.&nbsp;
 
 If you were using jBPM6.x, the rest API endpoint is&nbsp;_"&lt;server&gt;/jbpm-console/rest/..."_.&nbsp;
-
+<!-- more --> 
 New version 7.1.0, this won't work. The lengthy documentation does not mention this change obviously. Though, it is&nbsp;[there](https://docs.jboss.org/jbpm/release/7.1.0.Final/jbpm-docs/html_single/#_process_execution_server). And the real deal is&nbsp;[somewhere else](https://access.redhat.com/documentation/en-us/red_hat_jboss_bpm_suite/6.4/html/development_guide/realtime_decision_server).
 
 And I shall quote:

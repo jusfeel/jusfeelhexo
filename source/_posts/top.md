@@ -9,7 +9,7 @@ linux下的top命令参数说明 （virt,res,shr,data 的意义）
 virt 是虚拟内存  
 res是常驻内存  
 shr是共享内存  
-  
+  <!-- more --> 
 top命令下按f键可以看到详细说明  
 \* A: PID        = Process Id  
 \* E: USER       = User Name  

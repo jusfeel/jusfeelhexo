@@ -5,7 +5,6 @@ tags:
 ---
   
 
-![linux](https://www.reistlin.com/usr/uplinks/linux.gif "Linux HDD information (SATA/SCSI/SAS/SSD) - Jusfeel - FEEL.J.")
 
 ### **举例一：**
 
